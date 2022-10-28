@@ -22,7 +22,7 @@ nav{
     position: absolute;
     flex-wrap: wrap;
 }
-ul{
+.nav_links{
     width: 700px;
     padding: 0;
     height: 75px;
@@ -33,9 +33,9 @@ ul{
     margin-left: 10%;
     flex-wrap: wrap;
 }
-li{list-style-type: none;   
+.nav_link{list-style-type: none;   
 }
-li a {
+.nav_link a {
     text-decoration: none;
     color: white;
     font-family: 'Noto Sans', sans-serif;
@@ -49,6 +49,8 @@ header img{
     background-color: #fb2056;
     padding: 10px 30px 10px 30px;
     border-radius: 50px;
+    list-style-type: none;
+    
 }
 .action:hover{
     background-color: #da1c4b;
@@ -56,6 +58,9 @@ header img{
 .action a {
     font-size: 14px;
     font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .banniere{
@@ -77,3 +82,140 @@ header img{
     font-size: 64px;
 
 }
+
+.description{
+    display: flex ;
+    flex-flow: column wrap;
+    align-items: center;
+    
+
+}
+.description1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 100px 0;
+}
+.description2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+hr{
+    width: 60px;
+    border-top:solid 3px #fb2056;
+}
+.description1 img{
+    width: 28%;
+    height: 22%;
+    box-shadow: 10px 10px 0 1px rgb(0, 0, 0, 0.1);
+    border-radius: 1%;
+}
+.ourMission{
+    width: 25%;
+    height: 250px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-right: 130px;
+}
+.ourMission h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+
+}
+
+.ourMission p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    
+}
+.extraordianryExperience{
+    width: 25%;
+    height: 280px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 150px;
+    
+}
+.extraordianryExperience h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+.extraordianryExperience p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    
+}
+.ourCoreValue{
+    width: 25%;
+    height: 280px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.ourCoreValue h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.ourCoreValue p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    
+}
+.tiret{
+    background-color: #fb2056;
+    height: 3px;
+    width: 15px
+}
+.liste{
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.liste p{
+    margin-left: 20px;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-flow:column nowrap ;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    flex-wrap: wrap;
+
+}
+
+.info{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.i1{
+    border-right: 2px solid white;
+    padding-right: 1%;
+}
+
