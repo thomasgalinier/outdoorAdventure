@@ -1,3 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+::selection{
+    background-color: #fb2056;
+    color: white;
+}
 nav{
     padding: 0;
     margin: 0;
@@ -48,4 +61,162 @@ header img{
     text-decoration: none;
     color: white;
     font-family: 'Noto Sans', sans-serif;
+}
+
+.baniere{
+    background-image: url('../images_services/services-bg.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.baniere div{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.baniere h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+
+}
+
+.itsTimeToStartYourAdventure{
+    display: flex;
+    width: 100%;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+hr{
+    width: 80px;
+    background-color: #fb2056;
+    border-top: #fb2056 solid 3px;
+    margin: 15px 0;
+}
+.itsTimeToStartYourAdventure h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+}
+.itsTimeToStartYourAdventure p{
+    font-family: 'Noto Sans', sans-serif;
+    width: 42%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.backpackingTrip_famillyHikingTrip{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 100px 0;
+}
+.backpackingTrip{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.backpackingTrip img{
+    width: 80%;
+    height: 70%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 0 1px rgb(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+
+}
+
+.backpackingTrip_famillyHikingTrip h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+
+.backpackingTrip_famillyHikingTrip p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+   width: 85%;
+   text-align: center;
+}
+
+.famillyHikingTrip{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.famillyHikingTrip img{
+    width: 80%;
+    height: 70%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 0 1px rgb(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.waterSport_winterSport{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.waterSport{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.waterSport img{
+    width: 80%;
+    height: 70%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 0 1px rgb(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.waterSport h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.waterSport p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+   width: 85%;
+   text-align: center;
+}
+
+.winterSport{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.winterSport img{
+    width: 80%;
+    height: 70%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 0 1px rgb(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.winterSport h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.winterSport p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+   width: 85%;
+   text-align: center;
 }
